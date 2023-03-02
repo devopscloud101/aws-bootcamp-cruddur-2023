@@ -10,6 +10,8 @@
 
 ![Napkin](a.jpg)
 
-
+- created organization,cloutrail,IAM with best practice
 - set the billing
 - created organization, cloudtrail, IAM with best practice
+- created budget, SNS topic, CloudWatch
+
