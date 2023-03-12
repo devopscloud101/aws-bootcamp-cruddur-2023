@@ -40,8 +40,8 @@ services:
     image: "amazon/aws-xray-daemon"
     environment:
     #add the credentials directly
-      AWS_ACCESS_KEY_ID: "AKIA3P7BIXHKQVNVQ2HS"
-      AWS_SECRET_ACCESS_KEY: "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"
+      AWS_ACCESS_KEY_ID: "${AWS_ACCESS_KEY_ID}"
+      AWS_SECRET_ACCESS_KEY: "${AWS_SECRET_ACCESS_KEY}"
       AWS_REGION: "us-east-1"
     command:
       - "xray -o -b xray-daemon:2000"
