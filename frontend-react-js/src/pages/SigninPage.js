@@ -39,7 +39,7 @@ export default function SigninPage() {
 
   let el_errors;
   if (errors){
-    el_errors = <div className="errors">{errors}</div>;
+    el_errors = <div className='errors'>{errors}</div>;
   }
 
   return (
