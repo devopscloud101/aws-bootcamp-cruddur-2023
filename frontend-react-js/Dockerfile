@@ -1,5 +1,5 @@
 #v1
-FROM node:16.18
+FROM node:16.20.1
 
 ENV PORT=3000
 
